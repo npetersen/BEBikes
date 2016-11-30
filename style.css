@@ -1,0 +1,88 @@
+/*
+Theme Name:     BEBikes
+Theme URI:      http://www.bebikes.com
+Description:    BEBikes Child Theme
+Author:         Nate Petersen
+Author URI:     http://www.utahwebdev.com
+Template:       cuckoobizz
+Version:        1.0
+*/
+
+@import url("../cuckoobizz/style.css");
+
+/* Cuctom CSS here */
+
+/* https://gist.github.com/omurphy27/5243251 */
+.super-homepage:after {
+    content: "";
+    background: url(http://bebikes.com/wp-content/uploads/2014/06/pattern.png) repeat;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#additional-content {
+    /*position: absolute;
+    top: 100px;
+    left: 0;*/
+    border-top: 1px solid #333;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    z-index: 1001;
+}
+
+h2.section-intro-text {
+    font-size: 68px !important;
+    color: #fff !important;
+    background: rgba(0,0,0,0.45) !important;
+    padding: 25px !important;
+    text-align: center;
+}
+
+label {
+    color: #6b6f72 !important;
+}
+
+@media screen and (max-width: 1023px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+    h2.section-intro-text {
+        font-size: 32px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h2.section-intro-text {
+        font-size: 32px !important;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    
+}
+
+table.shop_table {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+#tab-additional_information {
+    background-color: transparent !important;
+}
+
+.woocommerce-message {
+    color: #000;
+}
+
